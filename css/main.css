@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1{
+	width: 100%;
+	/*выровнить*/
+	text-align: center;
+	font-size: 48px
+	/*border: solid;
+	border-color: red;
+	margin-left: 20px;
+	/*top right bottom left*/
+	/*padding: 30px во все стороны*/
+	/*padding: 30px 20px;*/
+	/*вверх и  вниз 30рх а влево вправо 20рх */
+	/*padding: 50px 40px 30px 10px верх право низ лево*/
+	/*padding: 10px*/
+}
+/*добавить шрифт*/
+@font-face{
+    font-family: Roboto;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+main{
+	width: 70%;
+	padding: 50px;
+	/*сделать по центру*/
+	margin: auto;
+	background-color: #fff;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    /*по центру но с флексом*/
+    justify-content: center;
+}
+body{
+	background-color: #C0C0C0;
+	font-family: Roboto
+}
+.photo{
+	background-color: orange;
+	/*очень интересная функция калькулятора*/
+     width: calc(50% - 40px);
+     height: calc((35vw - 40px)/16 * 9);
+     margin: 10px;
+     transition:all 0.5s ease;
+     box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+}
+/*очень прикольная штука*/
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+.photo1{
+	/*.. это выйти*/
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	/*натянуть по правильному*/
+	background-size: cover;
+}
+.photo2{
+	/*.. это выйти*/
+	background-image: url(../img/img2.png);
+	background-position: center;
+	/*натянуть по правильному*/
+	background-size: cover;
+}
+.photo3{
+	/*.. это выйти*/
+	background-image: url(../img/img3.jpg);
+	background-position: center;
+	/*натянуть по правильному*/
+	background-size: cover;
+}
+.photo4{
+	/*.. это выйти*/
+	background-image: url(../img/img4.jpg);
+	background-position: center;
+	/*натянуть по правильному*/
+	background-size: cover;
+}
+.photo5{
+	/*.. это выйти*/
+	background-image: url(../img/img5.jpg);
+	background-position: center;
+	/*натянуть по правильному*/
+	background-size: cover;
+}
+.photo6{
+	background-image: url(../img/img6.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo7{
+	background-image: url(../img/img7.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo8{
+	background-image: url(../img/img8.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo9{
+	background-image: url(../img/img9.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo10{
+	background-image: url(../img/img10.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo11{
+	background-image: url(../img/img11.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo12{
+	background-image: url(../img/img12.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.photo13{
+	background-image: url(../img/img2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.none{
+	background-color: #fff;
+}	
