@@ -7,7 +7,7 @@ h1{
 	width: 100%;
 	/*выровнить*/
 	text-align: center;
-	font-size: 48px
+	font-size: 48px;
 	/*border: solid;
 	border-color: red;
 	margin-left: 20px;
@@ -37,7 +37,7 @@ main{
 }
 body{
 	background-color: #C0C0C0;
-	font-family: Roboto
+	font-family: Roboto;
 }
 .photo{
 	background-color: orange;
